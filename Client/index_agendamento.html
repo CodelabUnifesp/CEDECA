@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Agendamento</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="shortcut icon" href="ico/favicon.ico"/>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top menu">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <h4><a class="nav-link" href="#"><img src="img/nav_cedeca.png" alt="Cedeca" width="180"></a></h4>
+      </li>
+    </ul>
+  </nav>
+  <!-- /Navbar -->
+  <!-- Forms -->
+  <form class="form-horizontal"  >
+    <fieldset >
+      <div class="panel panel-primary" style="background: #e6e6e6">
+        <div class="panel-heading"><center>Ficha de agendamento</center>
+        </div>
+        <div class="panel-body ">
+          <div class="container">
+            <!--Grupo do Nome -->
+            <div class="form-group">
+              <label class="col-md-2 control-label offset-md-2" for="Nome">Nome do assistido </label>  
+              <div class="col-md-4 ">
+                <input id="Nome" name="Nome" readonly="readonly" class="form-control input-md" required="" type="text" placeholder="Nome do assistido da tela anterior">
+              </div>
+            </div>
+            <!-- Grupo de advogados -->
+            <div class="form-group">
+              <label class="col-md-2 control-label offset-md-2" for="Nome">Selecione o Advogado <abbr title = "Campo Obrigatório"><h11>*</h11></abbr></label>  
+              <div class="col-md-4 ">
+                <select id="Nome" name="Nome" class="form-control input-md" required="" type="text">
+                  <option>Advogado 1 </option>
+                  <option>Advogado 2 </option>
+                  <option>Advogado 3 </option>
+                  <option>Advogado 4 </option>
+                  <option>Advogado 5 </option>
+                  <option>Advogado 6 </option>
+                </select>
+              </div>
+            </div>
+
+
+            <!-- Form code begins -->
+            <div class="form-group"> <!-- Date input -->
+              <label class="col-md-2 control-label offset-md-2" for="date">Date</label>
+              <div class="col-md-2">
+                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+              </div>
+            </div>
+            <!-- Button (Double) -->
+            <div class="form-group">
+              <label class="col-md-5 control-label" for="Cadastrar"></label>
+              <div class="col-md-1">
+                <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Agendar</button>
+              </div>
+              <div class="col-md-1">
+                <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar</button>
+              </div>
+              <br><br><br><br><br><br><br><br>
+
+            </div>
+          </form>
+          <!-- Form code ends -->
+        </div>
+      </div>
+    </div> 
+  </div>
+</div>
+
+</fieldset>
+</form>
+<!-- Footer -->
+
+<!--  jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Isolated Version of Bootstrap, not needed if your site already uses Bootstrap -->
+<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+
+<!-- Bootstrap Date-Picker Plugin -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+<script src="js/formulario.js"> </script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+</body>
+</html>
